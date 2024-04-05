@@ -11,5 +11,5 @@ urlpatterns = [
     # path('like-post', views.like_post, name='like-post'),
     path('signup', views.signup, name='signup'),
     path('signin', views.signin, name='signin'),
-    # path('logout', views.logout, name='logout'),
+    path('logout', views.logout, name='logout'),
 ]
